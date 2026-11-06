@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kristi&family=Lacquer&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Kristi&family=Lacquer&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     background-color: #0B1424;
@@ -51,4 +52,82 @@ h2{
 
 .films{
     height: 250px;
+    border-radius: 20px;
+}
+
+.Nof{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card{
+    background-color: #172638;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.card:hover{
+    background-color: #172638;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 10px 10px  15px 5px #356B58;
+}
+
+.name{
+    color: #E1E8DF;
+    font-size: 30px;
+    font-family: 'Lacquer';
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.genry{
+    color: #DBCFCF;
+    font-size: 18px;
+    font-family: monospace;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.Freebuy{
+    color: #20AF7D;
+    font-size: 14px;
+    font-family: monospace;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.sm{
+    border: 100%;
+    width: 85px;
+}
+
+footer{
+    background-color: #173B35;
+    font-family: 'Castoro+Titling';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.big{
+    font-size: 30px;
+    color: #00DD90;
+}
+
+.smal{
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
 }
