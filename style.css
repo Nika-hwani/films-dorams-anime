@@ -103,7 +103,7 @@ h2{
     margin-bottom: 5px;
 }
 
-.Freebuy{
+.Free{
     color: #20AF7D;
     font-size: 14px;
     font-family: monospace;
@@ -111,6 +111,16 @@ h2{
     margin-top: 0;
     margin-bottom: 5px;
 }
+
+.Buy{
+    color: #DC4949;
+    font-size: 14px;
+    font-family: monospace;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
 
 .sm{
     border: 100%;
