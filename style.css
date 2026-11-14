@@ -49,6 +49,11 @@ li{
     font-size: 35px;
 }
 
+a{
+    text-decoration: none;
+    color: #DBCFCF;
+}
+
 .line{
     border-bottom: solid 5px #20AF7D;
 }
