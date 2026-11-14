@@ -2,10 +2,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Kristi&family=Lacquer&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Kristi&family=Lacquer&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --bg-color:#0B1424;
+    --color: #DBCFCF;
+    --bg-header: #173B35;
+    --box-shadow: #20AF7D;
+    --text-shadow: #356B58;
+    --border-bottom: #20AF7D;
+    --bg-card-color: #172638;
+    --box-shadow-card: #356B58;
+    --color-name: #E1E8DF;
+    --color-free: #20AF7D;
+    --color-buy: #DC4949;
+    --bg: #173B35;
+    --color-big: #00DD90;
+    --color-smal: #ffffff;
+    --bg-btn: #356B58;
+    --color-btn: #E1E8DF;
+}
+
+[data-sceme="light"]{
+    --bg-color:#F1F5F0;
+    --color: #294139;
+    --bg-header: #DCE9DF;
+    --box-shadow: #20AF7D;
+    --text-shadow: #DCE9DF;
+    --border-bottom: #20AF7D;
+    --bg-card-color: #E5EEE6;
+    --box-shadow-card: #DCE9DF;
+    --color-name: #E1E8DF;
+    --color-free: #20AF7D;
+    --color-buy: #DC4949;
+    --bg: #DCE9DF;
+    --color-big: #20AF7D;
+    --color-smal: #294139;
+    --bg-btn: #DCE9DF;
+    --color-btn: #E1E8DF;
+}
+
 body{
-    background-color: #0B1424;
+    background-color:var(--bg-color);
     text-align: center;
-    color: #DBCFCF ;
+    color:var(--color) ;
 }
 
 main{
@@ -23,17 +61,17 @@ main{
 }
 
 header{
-    background-color: #173B35;
+    background-color: var(--bg-header);
     font-family: 'Lacquer';
     display: flex;
     justify-content: left;
     align-items: center;
     font-size: 50px;
-    box-shadow: 0 5px 100px 10px #20AF7D;
+    box-shadow: 0 5px 100px 10px var(--box-shadow);
 }
 
 h1{
-    text-shadow: 5px 5px 5px #356B58;
+    text-shadow: 5px 5px 5px var(--text-shadow);
 }
 
 
@@ -51,16 +89,16 @@ li{
 
 a{
     text-decoration: none;
-    color: #DBCFCF;
+    color: var(--color);
 }
 
 .line{
-    border-bottom: solid 5px #20AF7D;
+    border-bottom: solid 5px var(--border-bottom);
 }
 
 h2{
     font-family: 'Lacquer';
-    text-shadow: 5px 5px 5px #356B58;
+    text-shadow: 5px 5px 5px var(--text-shadow);
     font-size: 35px;
 }
 
@@ -77,7 +115,7 @@ h2{
 
 
 .card{
-    background-color: #172638;
+    background-color: var(--bg-card-color);
     border-radius: 20px;
     width: 300px;
     padding: 15px;
@@ -86,16 +124,16 @@ h2{
 }
 
 .card:hover{
-    background-color: #172638;
+    background-color: var(--bg-card-color);
     border-radius: 20px;
     width: 300px;
     padding: 15px;
     margin: 10px;
-    box-shadow: 10px 10px  15px 5px #356B58;
+    box-shadow: 10px 10px  15px 5px var(--box-shadow-card);
 }
 
 .name{
-    color: #E1E8DF;
+    color: var(--color-name);
     font-size: 30px;
     font-family: 'Lacquer';
     text-align: left;
@@ -104,7 +142,7 @@ h2{
 }
 
 .genry{
-    color: #DBCFCF;
+    color: var(--color);
     font-size: 18px;
     font-family: monospace;
     text-align: left;
@@ -113,7 +151,7 @@ h2{
 }
 
 .Free{
-    color: #20AF7D;
+    color: var(--color-free);
     font-size: 14px;
     font-family: monospace;
     text-align: left;
@@ -122,7 +160,7 @@ h2{
 }
 
 .Buy{
-    color: #DC4949;
+    color: var(--color-buy);
     font-size: 14px;
     font-family: monospace;
     text-align: left;
@@ -137,7 +175,7 @@ h2{
 }
 
 footer{
-    background-color: #173B35;
+    background-color: var(--bg);
     font-family: 'Castoro+Titling';
     display: flex;
     justify-content: center;
@@ -154,13 +192,13 @@ footer{
 
 .big{
     font-size: 30px;
-    color: #00DD90;
+    color: var(--color-big);
 }
 
 .smal{
     display: block;
     font-size: 13px;
-    color: #ffffff;
+    color: var(--color-smal);
 }
 
 .busket{
@@ -168,9 +206,9 @@ footer{
 }
 
 button{
-    background-color: #356B58;
+    background-color: var(--bg-btn);
     border-radius: 50px;
-    color: #E1E8DF;
+    color: var(--color-btn);
     font-family: 'Lacquer';
     font-size: 25px;
 }
