@@ -24,20 +24,20 @@
 [data-sceme="light"]{
     --bg-color:#F1F5F0;
     --color: #294139;
-    --bg-header: #DCE9DF;
+    --bg-header: #28926d;
     --box-shadow: #20AF7D;
-    --text-shadow: #DCE9DF;
+    --text-shadow: #356B58;
     --border-bottom: #20AF7D;
     --bg-card-color: #E5EEE6;
-    --box-shadow-card: #DCE9DF;
-    --color-name: #E1E8DF;
+    --box-shadow-card: #356B58;
+    --color-name: #294139;
     --color-free: #20AF7D;
     --color-buy: #DC4949;
-    --bg: #DCE9DF;
-    --color-big: #20AF7D;
-    --color-smal: #294139;
-    --bg-btn: #DCE9DF;
-    --color-btn: #E1E8DF;
+    --bg:#28926d;
+    --color-big: #00DD90;
+    --color-smal: #000000;
+    --bg-btn: #356B58;
+    --color-btn: #294139;
 }
 
 body{
