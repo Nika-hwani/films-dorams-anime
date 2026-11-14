@@ -36,7 +36,7 @@ h1{
 ul{
     display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 250px;
 }
 
 li{
@@ -152,4 +152,8 @@ footer{
     display: block;
     font-size: 13px;
     color: #ffffff;
+}
+
+.busket{
+    height: 40px;
 }
