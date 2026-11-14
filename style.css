@@ -8,6 +8,10 @@ body{
     color: #DBCFCF ;
 }
 
+main{
+    margin-bottom: 30px;
+}
+
 .logo{
     margin-left: 150px;
     margin-right: 100px;
@@ -156,4 +160,12 @@ footer{
 
 .busket{
     height: 40px;
+}
+
+button{
+    background-color: #356B58;
+    border-radius: 50px;
+    color: #E1E8DF;
+    font-family: 'Lacquer';
+    font-size: 25px;
 }
