@@ -248,7 +248,7 @@ button{
 }
 
 .label::before{
-    content: ;
+    content: '';
     display: block;
     width: 25px;
     height: 25px;
@@ -275,4 +275,15 @@ button{
 
 #switch:checked + .label::before{
     transform: translate(45px);
+}
+
+#switch:checked + .label .fa-sun-bright{
+    left: 11%;
+}
+#switch:checked + .label .fa-moon{
+    right: -24%;
+}
+
+#switch:active + .label::before{
+    width: 35px;
 }
