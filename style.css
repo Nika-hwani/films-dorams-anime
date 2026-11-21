@@ -37,7 +37,6 @@
     --color-big: #00DD90;
     --color-smal: #000000;
     --bg-btn: #356B58;
-    --color-btn: #294139;
 }
 
 body{
@@ -216,8 +215,8 @@ button{
 .footerswitch{
     display: flex;
     justify-content: space-around;
-    margin-bottom: auto;
-    margin-left: auto;
+    margin-bottom: 200px;
+    margin-left: 450px;
 }
 
 .switch_container{
