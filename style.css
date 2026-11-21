@@ -21,7 +21,7 @@
     --color-btn: #E1E8DF;
 }
 
-[data-sceme="light"]{
+[data-scene="light"] {
     --bg-color:#F1F5F0;
     --color: #294139;
     --bg-header: #28926d;

@@ -1,15 +1,16 @@
 let checkbox = document.querySelector("#switch");
-let body = document.querySelector('body');
+let body = document.querySelector("body");
 
 const setDarkMode = () => {
-    body.classList= 'dark';
-    checkbox.checked = true;
-}
-
-const settightMode = () => {
-    body.classList= 'light';
+    body.dataset.scene = "dark";
     checkbox.checked = false;
 }
 
-checkbox.addEventListener('click', () => checkbox.checked ? setDarkMode
-() : settightMode())
+const setLightMode = () => {
+    body.dataset.scene = "light";
+    checkbox.checked = true;
+}
+
+checkbox.addEventListener("change", () => {
+    checkbox.checked ? setLightMode() : setDarkMode();
+});
